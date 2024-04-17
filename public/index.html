@@ -7,7 +7,24 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-100 p-8">
-    <div class="max-w-6xl mx-auto"> <!-- This centers the grid and sets a max-width -->
+    <header class="bg-white shadow-md">
+        <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between h-16 items-center">
+            <div class="flex-shrink-0"> <!-- Logo or Brand Name -->
+              <h1 class="text-lg font-bold">Brand</h1>
+            </div>
+            <div class="block"> <!-- Navigation Links -->
+              <div class="flex items-center space-x-4">
+                <a href="#" class="text-gray-700 hover:text-gray-900">Home</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">About</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Services</a>
+                <a href="#" class="text-gray-700 hover:text-gray-900">Contact</a>
+              </div>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <div class="max-w-6xl mx-auto py-8 px-4 sm:px-6 lg:px-8"> <!-- This centers the grid and sets a max-width -->
       <div class="grid grid-cols-3 gap-6"> <!-- Defines the grid with 3 columns and a gap -->
         <!-- Start of the first card -->
         <div class="bg-white rounded-lg shadow overflow-hidden">
